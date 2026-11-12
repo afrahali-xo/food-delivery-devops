@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        IMAGE_NAME = "YOUR_DOCKERHUB_USERNAME/food-delivery"
+        IMAGE_NAME = "afrahali26/food-delivery"
         K8S_DEPLOYMENT = "food-delivery"
         K8S_CONTAINER = "food-delivery"
     }
